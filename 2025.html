@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>MAKAUT Research Methodology (CS601) - Solved Question Paper | Detailed Answers</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #eef2f5;
+            font-family: 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            line-height: 1.55;
+            color: #1a2a3a;
+            padding: 2rem 1rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 28px;
+            box-shadow: 0 20px 35px -12px rgba(0,0,0,0.15);
+            overflow: hidden;
+            padding: 2rem 2rem 3rem 2rem;
+        }
+
+        /* header styling */
+        .paper-header {
+            border-bottom: 3px solid #0b5e7e;
+            margin-bottom: 2rem;
+            padding-bottom: 1.2rem;
+            text-align: center;
+        }
+
+        .paper-header h1 {
+            font-size: 1.8rem;
+            color: #0b3b4f;
+            letter-spacing: -0.3px;
+            font-weight: 700;
+        }
+
+        .paper-header h2 {
+            font-size: 1.2rem;
+            font-weight: 500;
+            color: #2c6979;
+            margin-top: 0.5rem;
+        }
+
+        .badge {
+            display: inline-block;
+            background: #eef2fa;
+            padding: 0.2rem 0.8rem;
+            border-radius: 40px;
+            font-size: 0.8rem;
+            font-weight: 500;
+            color: #0b5e7e;
+            margin-top: 0.6rem;
+        }
+
+        /* group styling */
+        .group {
+            margin-top: 2.5rem;
+            border-left: 5px solid #2c7a7b;
+            padding-left: 1.2rem;
+        }
+
+        .group-title {
+            font-size: 1.7rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #1e4a5f, #0f6b7c);
+            display: inline-block;
+            padding: 0.2rem 1.2rem;
+            border-radius: 40px;
+            color: white;
+            margin-bottom: 1.5rem;
+            letter-spacing: -0.2px;
+        }
+
+        .q-item {
+            background: #fdfdfd;
+            margin: 1.3rem 0;
+            border-radius: 24px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+            transition: all 0.1s ease;
+        }
+
+        .question-head {
+            background: #f8fafc;
+            padding: 0.9rem 1.2rem;
+            border-radius: 24px 24px 0 0;
+            border-bottom: 1px solid #e0e9ef;
+            font-weight: 700;
+            font-size: 1.05rem;
+            color: #1e5069;
+        }
+
+        .answer-body {
+            padding: 1rem 1.5rem 1.3rem 1.5rem;
+            background: white;
+            border-radius: 0 0 24px 24px;
+        }
+
+        .answer-body p, .answer-body li {
+            color: #2c3e44;
+        }
+
+        .sub-list {
+            margin: 0.8rem 0 0.5rem 1.5rem;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1rem 0;
+            font-size: 0.9rem;
+            background: #ffffff;
+            border-radius: 18px;
+            overflow: hidden;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+        }
+
+        th, td {
+            border: 1px solid #cfdfe8;
+            padding: 10px 12px;
+            vertical-align: top;
+        }
+
+        th {
+            background: #e9f2f5;
+            font-weight: 700;
+            color: #144d5c;
+        }
+
+        .example-box {
+            background: #f1f9fe;
+            padding: 0.6rem 1rem;
+            border-radius: 18px;
+            margin: 0.8rem 0;
+            border-left: 4px solid #2c7a7b;
+        }
+
+        .step-list {
+            margin: 0.6rem 0 0.4rem 1.4rem;
+        }
+
+        hr {
+            margin: 1rem 0;
+            border: none;
+            height: 1px;
+            background: #dce5ec;
+        }
+
+        .highlight {
+            font-weight: 600;
+            color: #146b3a;
+        }
+
+        footer {
+            margin-top: 3rem;
+            text-align: center;
+            font-size: 0.8rem;
+            color: #6c868e;
+            border-top: 1px solid #d4e2e9;
+            padding-top: 1.5rem;
+        }
+
+        @media (max-width: 650px) {
+            .container {
+                padding: 1.3rem;
+            }
+            .question-head {
+                font-size: 0.95rem;
+            }
+            .group-title {
+                font-size: 1.3rem;
+            }
+            th, td {
+                font-size: 0.8rem;
+                padding: 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="paper-header">
+        <h1>📘 MAKAUT B.Tech 6th Semester</h1>
+        <h2>Research Methodology (CS601 / CS601D / DS601)</h2>
+        <div class="badge">Solved Question Paper | Detailed Answers as per University Pattern</div>
+    </div>
+
+    <!-- GROUP - A (Very Short Answer) -->
+    <div class="group">
+        <div class="group-title">📌 Group-A (Very Short Answer Questions)</div>
+
+        <div class="q-item"><div class="question-head">1(i) What does SPSS stand for?</div><div class="answer-body"><p><strong>Answer:</strong> SPSS stands for <strong>Statistical Package for the Social Sciences</strong>. It is software used for statistical analysis, data management, and visualization.</p></div></div>
+        <div class="q-item"><div class="question-head">1(ii) What is the purpose of a t-test?</div><div class="answer-body"><p><strong>Answer:</strong> A t-test determines whether there is a significant difference between the means of two groups.<br><span class="highlight">Example:</span> Comparing average marks of students taught using two different methods.</p></div></div>
+        <div class="q-item"><div class="question-head">1(iii) Expand IMRAD.</div><div class="answer-body"><p><strong>Answer:</strong> <strong>I</strong>ntroduction, <strong>M</strong>ethods, <strong>R</strong>esults, <strong>A</strong>nd, <strong>D</strong>iscussion — standard structure of a research paper.</p></div></div>
+        <div class="q-item"><div class="question-head">1(iv) What is meant by an oral presentation?</div><div class="answer-body"><p><strong>Answer:</strong> Verbal communication of research findings before an audience using speech, slides, or multimedia.</p></div></div>
+        <div class="q-item"><div class="question-head">1(v) What is a working hypothesis?</div><div class="answer-body"><p><strong>Answer:</strong> A temporary assumption formulated to guide research until sufficient evidence is obtained.</p></div></div>
+        <div class="q-item"><div class="question-head">1(vi) Name any one non-probability sampling technique.</div><div class="answer-body"><p><strong>Answer:</strong> <strong>Convenience Sampling</strong>. (Other: Purposive, Snowball, Quota)</p></div></div>
+        <div class="q-item"><div class="question-head">1(vii) What does TRIPS stand for?</div><div class="answer-body"><p><strong>Answer:</strong> <strong>Trade-Related Aspects of Intellectual Property Rights</strong>.</p></div></div>
+        <div class="q-item"><div class="question-head">1(viii) What is interpretation in research?</div><div class="answer-body"><p><strong>Answer:</strong> The process of explaining and giving meaning to research findings and results.</p></div></div>
+        <div class="q-item"><div class="question-head">1(ix) What is meant by a conceptual research approach?</div><div class="answer-body"><p><strong>Answer:</strong> Based on ideas, theories, and concepts rather than direct observation or experimentation.</p></div></div>
+        <div class="q-item"><div class="question-head">1(x) What is the full form of SigmaStat?</div><div class="answer-body"><p><strong>Answer:</strong> <strong>Statistical Analysis Software by Systat</strong> used for scientific statistical analysis.</p></div></div>
+        <div class="q-item"><div class="question-head">1(xi) Give one example of scholarly misconduct.</div><div class="answer-body"><p><strong>Answer:</strong> <strong>Plagiarism</strong> – copying another’s work without proper acknowledgment.</p></div></div>
+        <div class="q-item"><div class="question-head">1(xii) What is the main purpose of a conclusion in a report?</div><div class="answer-body"><p><strong>Answer:</strong> Summarizes findings and provides final interpretations & recommendations.</p></div></div>
+    </div>
+
+    <!-- GROUP - B (Short Answer Questions) -->
+    <div class="group">
+        <div class="group-title">✍️ Group-B (Short Answer Questions)</div>
+
+        <div class="q-item"><div class="question-head">2. Describe the structure (layout) of a standard research report.</div><div class="answer-body"><p><strong>Structure:</strong> Title Page, Abstract, Acknowledgement, Table of Contents, Introduction, Literature Review, Research Methodology, Data Analysis & Results, Discussion, Conclusion & Recommendations, References, Appendices.</p><p><span class="highlight">Importance:</span> Provides systematic presentation and improves readability.</p></div></div>
+
+        <div class="q-item"><div class="question-head">3. Short note on using the web and research databases for literature review.</div><div class="answer-body"><p><strong>Web resources:</strong> Google Scholar, ResearchGate, Academia.edu. <strong>Databases:</strong> IEEE Xplore, SpringerLink, ScienceDirect, Scopus, Web of Science.</p><p><span class="highlight">Advantages:</span> Access to peer-reviewed articles, citation tracking, identification of research gaps. Essential for reliable scholarly review.</p></div></div>
+
+        <div class="q-item"><div class="question-head">4. Differentiate between probability and non-probability sampling methods.</div><div class="answer-body"> 
+            <tr><th>Probability Sampling</th><th>Non-Probability Sampling</th></tr>
+            <tr><td>Random selection</td><td>Non-random selection</td></tr>
+            <tr><td>Equal chance of selection</td><td>Unequal chance</td></tr>
+            <tr><td>Less bias</td><td>More bias</td></tr>
+            <tr><td>Suitable for large populations</td><td>Suitable for small populations</td></tr>
+            <tr><td>Statistical inference possible</td><td>Statistical inference difficult</td></tr>
+            <table>
+            <p><strong>Examples:</strong> Probability → Simple Random Sampling ; Non-probability → Convenience Sampling.</p>
+        </div></div>
+
+        <div class="q-item"><div class="question-head">5. Differentiate between copyright and patent with examples.</div><div class="answer-body">
+            <table><tr><th>Copyright</th><th>Patent</th></tr>
+            <tr><td>Protects creative works</td><td>Protects inventions</td></tr>
+            <tr><td>Automatic protection</td><td>Requires registration</td></tr>
+            <tr><td>Books, music, software</td><td>Machines, technologies</td></tr>
+            <tr><td>Long duration</td><td>Limited (20 years)</td></tr></table>
+            <p><strong>Example:</strong> Copyright → software code ; Patent → new mobile charging technology.</p>
+        </div></div>
+
+        <div class="q-item"><div class="question-head">6. Illustrate the difference between t-test and ANOVA with examples.</div><div class="answer-body">
+            <table><tr><th>t-test</th><th>ANOVA</th></tr>
+            <tr><td>Compares two means</td><td>Compares three or more means</td></tr>
+            <tr><td>One independent variable</td><td>Multiple groups</td></tr>
+            <tr><td>Simpler</td><td>More complex</td></tr></table>
+            <p><span class="highlight">t-test example:</span> Compare marks of boys vs girls. <span class="highlight">ANOVA example:</span> Compare marks of Science, Arts, Commerce streams.</p>
+        </div></div>
+    </div>
+
+    <!-- GROUP - C (Long Answer Questions) -->
+    <div class="group">
+        <div class="group-title">📚 Group-C (Long Answer Questions)</div>
+
+        <!-- Q7 -->
+        <div class="q-item"><div class="question-head">7(a). Describe the complete process of selecting a research topic.</div><div class="answer-body"><p><strong>Steps:</strong> Identify broad area → Literature review → Identify research gap → Define problem statement → Formulate objectives → Check feasibility → Formulate research questions → Finalize topic. <br><span class="highlight">Example:</span> Broad area: AI → topic: AI-based Disease Prediction System.</p></div></div>
+        <div class="q-item"><div class="question-head">7(b). Discuss how internet and research databases can be effectively used for literature review.</div><div class="answer-body"><p><strong>Sources:</strong> Google Scholar, ResearchGate, IEEE Xplore, Scopus, SpringerLink. <strong>Effective usage:</strong> Use keywords, apply filters, download peer-reviewed papers, maintain references, analyze citations. Benefits include updated knowledge, gap identification, strong theoretical foundation.</p></div></div>
+        <div class="q-item"><div class="question-head">7(c). Essential characteristics of good research.</div><div class="answer-body"><p><strong>Characteristics:</strong> Systematic, Logical, Empirical, Objective, Replicable, Valid, Reliable. <span class="highlight">Example:</span> Clinical trials must be objective, reliable, and valid.</p></div></div>
+
+        <!-- Q8 -->
+        <div class="q-item"><div class="question-head">8(a). Describe the complete process of hypothesis testing.</div><div class="answer-body"><p><strong>Steps:</strong> 1. Formulate H₀ and H₁. 2. Select significance level (α=0.05). 3. Choose statistical test. 4. Collect data. 5. Compute test statistic. 6. Determine critical value. 7. Decision: Reject H₀ if p-value < α. <span class="highlight">Example:</span> Testing a new teaching method’s effectiveness.</p></div></div>
+        <div class="q-item"><div class="question-head">8(b). Discuss the importance of data processing and analysis strategies.</div><div class="answer-body"><p><strong>Data processing:</strong> Editing, Coding, Classification, Tabulation. <strong>Analysis:</strong> Descriptive & inferential stats, visualization. Importance: reduces errors, improves accuracy, supports decision-making, helps draw conclusions.</p></div></div>
+
+        <!-- Q9 -->
+        <div class="q-item"><div class="question-head">9(a). What is plagiarism? Discuss consequences and strategies to avoid it.</div><div class="answer-body"><p><strong>Definition:</strong> Presenting someone else's work as your own without acknowledgment. <strong>Consequences:</strong> Academic penalties, loss of credibility, legal action, rejection of papers. <strong>Avoidance:</strong> Proper citation, quotation marks, correct paraphrasing, plagiarism detection software, maintain references.</p></div></div>
+        <div class="q-item"><div class="question-head">9(b). Evaluate the role of reproducibility and accountability in maintaining research integrity.</div><div class="answer-body"><p><strong>Reproducibility:</strong> Ability to obtain similar results by repeating research. <strong>Accountability:</strong> Researchers take responsibility for data & conclusions. Importance: ensures trustworthiness, detects errors, prevents fraud, improves scientific quality.</p></div></div>
+
+        <!-- Q10 -->
+        <div class="q-item"><div class="question-head">10(a). Explain how an effective oral presentation should be prepared and delivered.</div><div class="answer-body"><p><strong>Preparation:</strong> Understand audience, clear slides, logical content, practice. <strong>Delivery:</strong> Eye contact, clear speech, manage time, answer confidently. Outcome: improves communication of research findings.</p></div></div>
+        <div class="q-item"><div class="question-head">10(b). Discuss common errors made during interpretation and report writing and how they can be avoided.</div><div class="answer-body"><p><strong>Common errors:</strong> Biased interpretation, unsupported conclusions, ignoring limitations, poor organization, incorrect citations. <strong>Avoidance:</strong> Use objective analysis, support conclusions with evidence, follow report structure, proofread, cite properly.</p></div></div>
+        <div class="q-item"><div class="question-head">10(c). Describe the complete process of writing and presenting a research project from data interpretation to final conclusion.</div><div class="answer-body"><p><strong>Steps:</strong> Interpret Data → Discuss Results → Draw Conclusions → Provide Recommendations → Prepare Report (IMRAD format) → Review & Edit → Create Presentation → Present Findings → Answer Questions → Submit Final Report.</p></div></div>
+
+        <!-- Q11 -->
+        <div class="q-item"><div class="question-head">11(a). Evaluate the importance of clarity, objectivity, and structure in research reporting.</div><div class="answer-body"><p><strong>Clarity</strong> makes info easy to understand; <strong>Objectivity</strong> removes bias; <strong>Structure</strong> provides logical flow. Importance: better communication, increased credibility, easier evaluation, improved usability.</p></div></div>
+        <div class="q-item"><div class="question-head">11(b). How do the techniques of interpretation and writing affect the credibility and usability of research findings?</div><div class="answer-body"><p>Accurate interpretation builds trust; proper writing prevents misunderstanding. Evidence-based conclusions improve reliability. Clear presentation helps readers apply findings, well-organized reports boost accessibility. Effective interpretation & scientific writing significantly enhance credibility and practical usefulness.</p></div></div>
+    </div>
+
+    <!-- extra summary for key high-weight answers (integrated already) but adding additional resource block -->
+    <div style="margin-top: 2rem; background: #eff7fa; border-radius: 28px; padding: 1.2rem 1.8rem;">
+        <h3 style="color: #1e5a6f; margin-bottom: 0.5rem;">📖 Examination Ready Notes</h3>
+        <p>✔️ Answers designed for MAKAUT Research Methodology (CS601) – 5, 7, 8, 10 mark questions covered.<br>
+        ✔️ Includes hypothesis testing, sampling, intellectual property (TRIPS, copyright vs patent), IMRAD, SPSS, t-test/ANOVA, plagiarism, and research reporting essentials.<br>
+        ✔️ All Group-A, Group-B, and Group-C solutions as per standard university evaluation pattern.</p>
+    </div>
+    <footer>
+        ⚡ Solved as per MAKAUT B.Tech 6th Semester curriculum | Research Methodology (CS601/CS601D/DS601) <br>
+        Comprehensive answers for reference & exam preparation
+    </footer>
+</div>
+</body>
+</html>
